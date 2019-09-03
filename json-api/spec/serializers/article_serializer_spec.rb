@@ -1,5 +1,8 @@
+$LOAD_PATH.unshift('.')
 require 'rspec'
-require 'app/serializers/article_serializer.rb'
+require 'json-api/app/serializers/article_serializer.rb'
+# OR (if '$LOAD_PATH.unshift('.')' is not included)
+# require './json-api/app/serializers/article_serializer.rb'
 
 describe ArticleSerializer do
   subject { described_class.new(article) }

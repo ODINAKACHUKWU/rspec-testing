@@ -2,7 +2,7 @@
 
 Rspec testing contains my practice exercises on testing ruby codes with rspec. Materials used include:
 
-- [The Definitive RSpec Tutorial With Examples)](https://www.rubyguides.com/2018/07/rspec-tutorial/)
+- [The Definitive RSpec Tutorial With Examples](https://www.rubyguides.com/2018/07/rspec-tutorial/)
 
 - [Ruby Notes For Professionals](https://books.goalkicker.com/RubyBook/)
 

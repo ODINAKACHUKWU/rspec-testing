@@ -2,6 +2,7 @@ require 'rspec'
 require_relative 'calculator'
 
 describe Calculator do
+    # Testing hooks
     before(:all) { puts "Preparing to test..." }
     after(:all) { puts "All tests completed!" }
     before(:each) { puts "Test started..." }
