@@ -1,7 +1,9 @@
 # rspec-testing
 
-Rspec testing contains all codes I've written while practising to gain an in-depth knowledge and understanding of Ruby basics/fundamentals as well as advanced Ruby. I've leveraged the following resources in this journey so far:
+Rspec testing contains my practice exercises on testing ruby codes with rspec. Materials used include:
 
-- [David A. Black - The Well Grounded Rubyist (28 Feb. 2019, Manning Publications)](https://www.manning.com/books/the-well-grounded-rubyist-third-edition)
+- [The Definitive RSpec Tutorial With Examples)](https://www.rubyguides.com/2018/07/rspec-tutorial/)
 
-- [RubyNotesForProfessionals](https://www.manning.com/books/the-well-grounded-rubyist-third-edition)
+- [Ruby Notes For Professionals](https://books.goalkicker.com/RubyBook/)
+
+- [Pure RSpec JSON API testing](https://blog.eq8.eu/article/rspec-json-api-testing.html)
