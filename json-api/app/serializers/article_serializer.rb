@@ -7,13 +7,13 @@ class ArticleSerializer
 
   def as_json
     {
-          article: {
-            id: article.id.to_s,
-            type: "articles",
-            attributes: {
-              title: article.title,
-            },
-          },
+      article: {
+        id: article.id.to_s,
+        type: 'articles',
+        attributes: {
+          title: article.title
         }
+      }
+    }
   end
 end

@@ -1,6 +1,9 @@
 require 'rspec'
 require_relative 'calculator'
 
+# The 'let' method will create a reusable object while the 'subject' method creates only one object which is meant to be an instance of the main object being tested.
+
+# NOTE: 'let' method is lazy. It means that the object won’t be created until the first time you use it. To avoid these side-effects, use the 'let!' method which is non-lazy. So the object will be created before any tests are run.
 describe Calculator do
     # Testing hooks
     before(:all) { puts "Preparing to test..." }
